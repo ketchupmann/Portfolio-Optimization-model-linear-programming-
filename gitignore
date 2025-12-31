@@ -1,0 +1,18 @@
+# Ignore the environment folder
+venv/
+env/
+.conda/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore large data files (Your script can redownload them)
+*.csv
+*.xlsx
+
+# Ignore VS Code settings
+.vscode/
